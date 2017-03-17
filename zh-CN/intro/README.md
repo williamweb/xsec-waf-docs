@@ -22,6 +22,6 @@ X-WAF是一款适用中、小企业的云WAF系统，让中、小企业也可以
 x-waf由waf自身与Waf管理后台组成：
 
 - [waf](https://github.com/xsec-lab/x-waf)：基于openresty + lua开发。
-- [waf管理后台](https://github.com/xsec-lab/x-waf-admin)：采用golang + xorm + macrom开发的，支持二进制的形式部署。
+- [waf管理后台](https://github.com/xsec-lab/x-waf-admin)：采用golang + xorm + macaron开发的，支持二进制的形式部署。
 
 waf和waf-admin必须同时部署在每一台云WAF服务器中。
